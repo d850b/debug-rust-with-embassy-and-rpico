@@ -534,51 +534,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "embassy-rp-examples"
-version = "0.1.0"
-dependencies = [
- "byte-slice-cast 1.2.2",
- "cortex-m",
- "cortex-m-rt",
- "cyw43",
- "cyw43-pio",
- "defmt",
- "defmt-rtt",
- "display-interface",
- "display-interface-spi",
- "embassy-embedded-hal",
- "embassy-executor",
- "embassy-futures",
- "embassy-net",
- "embassy-net-wiznet",
- "embassy-rp",
- "embassy-sync",
- "embassy-time",
- "embassy-usb",
- "embassy-usb-logger",
- "embedded-graphics",
- "embedded-hal 1.0.0-rc.3",
- "embedded-hal-async",
- "embedded-hal-bus",
- "embedded-io-async",
- "embedded-storage",
- "fixed",
- "fixed-macro",
- "futures",
- "heapless 0.8.0",
- "log",
- "panic-probe",
- "pio",
- "pio-proc",
- "portable-atomic",
- "rand",
- "smart-leds",
- "st7789",
- "static_cell",
- "usbd-hid",
-]
-
-[[package]]
 name = "embassy-sync"
 version = "0.5.0"
 source = "git+https://github.com/embassy-rs/embassy.git#eebfee189a592427423d3a3ad22132d59926a0e8"
@@ -1498,6 +1453,51 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7c92f344f63f950ee36cf4080050e4dce850839b9175da38f9d2ffb69b4dbb21"
 dependencies = [
  "crc-any",
+]
+
+[[package]]
+name = "rpi_em_1"
+version = "0.1.0"
+dependencies = [
+ "byte-slice-cast 1.2.2",
+ "cortex-m",
+ "cortex-m-rt",
+ "cyw43",
+ "cyw43-pio",
+ "defmt",
+ "defmt-rtt",
+ "display-interface",
+ "display-interface-spi",
+ "embassy-embedded-hal",
+ "embassy-executor",
+ "embassy-futures",
+ "embassy-net",
+ "embassy-net-wiznet",
+ "embassy-rp",
+ "embassy-sync",
+ "embassy-time",
+ "embassy-usb",
+ "embassy-usb-logger",
+ "embedded-graphics",
+ "embedded-hal 1.0.0-rc.3",
+ "embedded-hal-async",
+ "embedded-hal-bus",
+ "embedded-io-async",
+ "embedded-storage",
+ "fixed",
+ "fixed-macro",
+ "futures",
+ "heapless 0.8.0",
+ "log",
+ "panic-probe",
+ "pio",
+ "pio-proc",
+ "portable-atomic",
+ "rand",
+ "smart-leds",
+ "st7789",
+ "static_cell",
+ "usbd-hid",
 ]
 
 [[package]]
