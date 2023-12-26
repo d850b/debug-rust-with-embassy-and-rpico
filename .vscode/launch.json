@@ -10,11 +10,15 @@
         "chip": "RP2040",
         "coreConfigs": [
           {
-            //!MODIFY
-    
+            "coreIndex": 0,
+            "rttEnabled": true,    
             "programBinary": "/home/tsteinkamp/Documents/rust/rpico/rpi_em_1/target/thumbv6m-none-eabi/debug/rpi_em_1"
           }
-        ]
+        ],
+        "env": {
+          //!MODIFY: Remove or use any of the supported DEFMT_LOG options.
+          "DEFMT_LOG": "info"
+        }
       }
     ]
   }
