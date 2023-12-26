@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "preLaunchTask": "${defaultBuildTask}",
+        "type": "probe-rs-debug",
+        "request": "launch",
+        "name": "probe_rs Executable Test",
+        //!MODIFY
+        "chip": "RP2040",
+        "coreConfigs": [
+          {
+            //!MODIFY
+    
+            "programBinary": "/home/tsteinkamp/Documents/rust/rpico/rpi_em_1/target/thumbv6m-none-eabi/debug/rpi_em_1"
+          }
+        ]
+      }
+    ]
+  }
