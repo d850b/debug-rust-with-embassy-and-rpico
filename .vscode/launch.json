@@ -1,18 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+
       {
         "preLaunchTask": "${defaultBuildTask}",
         "type": "probe-rs-debug",
-        "request": "launch",
+        "request": "attach",
         "name": "probe_rs Executable Test",
+        "cwd": "${workspaceFolder}",
         //!MODIFY
         "chip": "RP2040",
         "coreConfigs": [
           {
             "coreIndex": 0,
             "rttEnabled": true,    
-            "programBinary": "/home/tsteinkamp/Documents/rust/rpico/rpi_em_1/target/thumbv6m-none-eabi/debug/rpi_em_1"
+            "programBinary": "./target/thumbv6m-none-eabi/debug/rpi_em_1"
           }
         ],
         "env": {
