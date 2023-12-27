@@ -1,6 +1,6 @@
 # Intro
 
-This shall serve as a reminder and template for how tp create a 
+This shall serve mainly as a reminder for myself about how to create a 
 
 - cargo project for embassy and rpico
 - set up debugging with vscode for it. 
