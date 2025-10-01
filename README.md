@@ -1,6 +1,6 @@
 # Intro
 
-This shall serve mainly as a reminder for myself about how to create a 
+This shall serve as a reminder and template about how to create a 
 
 - cargo project for embassy and rpico
 - set up debugging with vscode for it. 
@@ -24,7 +24,7 @@ For details look at the git log. I list the steps from memory:
 
 3: Modified the Cargo.toml, changed the "path" dependencies to equivalent "git" dependencies. Miraculously, Cargo resolves all the dependencies and starts building! (cargo build)
 
-4: But this wasn't enough. I had to use a nightly compiler and had to install the toolchain. But as i found out a bit later, all the manual changes could be skipped, but adding 
+4: But this wasn't enough. I had to use a nightly compiler and had to install the toolchain. But as i found out a bit later, all the manual changes could be skipped, by adding 
 
 - rust-toolchain.toml
 
